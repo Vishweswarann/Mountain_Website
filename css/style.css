@@ -1,0 +1,32 @@
+body {
+  background-color: #010101;
+}
+
+.innerDiv {
+  background-color: #0b1d27;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navBar ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
