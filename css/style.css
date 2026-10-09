@@ -3,8 +3,9 @@ body {
 }
 
 .innerDiv {
-  background-color: #0b1d27;
-  color: white;
+  background:
+    linear-gradient(to bottom, rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)),
+    url("./../Assets/background.png");
 }
 
 .navBar {
@@ -29,4 +30,38 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
+  background:
+    linear-gradient(to bottom, rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)),
+    url("./../Assets/background.png");
+}
+.heading ul {
+  list-style: none;
+}
+
+.heading li {
+  padding: 17px;
+}
+
+.rotate {
+  position: relative;
+  right: 20px;
+  rotate: 90deg;
+}
+
+.cards {
+  background-color: #0b1d27;
+}
+
+.card {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  color: white;
+}
+
+.card img {
+  max-width: 200px;
+  max-height: 300px;
+  padding-left: 30px;
 }
