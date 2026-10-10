@@ -6,6 +6,14 @@ body {
   background:
     linear-gradient(to bottom, rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)),
     url("./../Assets/background.png");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  min-height: 600px;
+  background-size: 100% 100%;
 }
 
 .navBar {
@@ -31,9 +39,6 @@ body {
   justify-content: space-around;
   align-items: center;
   color: white;
-  background:
-    linear-gradient(to bottom, rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)),
-    url("./../Assets/background.png");
 }
 .heading ul {
   list-style: none;
@@ -51,17 +56,36 @@ body {
 
 .cards {
   background-color: #0b1d27;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.card {
-  padding-left: 200px;
-  padding-right: 200px;
+.card-left {
+  padding-left: 250px;
+  padding-right: 250px;
   display: flex;
   color: white;
 }
 
-.card img {
-  max-width: 200px;
-  max-height: 300px;
+.card-left img {
+  width: 250px;
+  height: 300px;
   padding-left: 30px;
+}
+
+.card-right {
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  color: white;
+}
+
+.card-right img {
+  width: 250px;
+  height: 300px;
+  padding-right: 30px;
+}
+
+.textContent {
+  margin-top: 30px;
 }
